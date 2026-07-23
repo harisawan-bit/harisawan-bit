@@ -1,9 +1,13 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,45:2563eb,100:7c3aed&height=240&section=header&text=Haris%20Awan&fontSize=56&fontAlignY=36&animation=twinkling&fontColor=ffffff&desc=MBBS%20student%20%7C%20AI%20automation%20builder%20%7C%20clinical%20research%20tooling&descAlignY=56&descSize=18" alt="Haris Awan profile header" />
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/hero.svg?v=20260723-2" alt="Muhammad Haris Awan animated GitHub profile banner" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/marquee.svg" alt="animated introduction marquee" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=100&text=AI%20agents%20%7C%20automation%20%7C%20clinical%20research%20tooling&fontSize=24&fontColor=60a5fa&animation=fadeIn&v=20260723-2" alt="animated focus line" />
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/marquee.svg?v=20260723-2" alt="animated introduction marquee" />
 </div>
 
 <p align="center">
@@ -66,7 +70,7 @@
 <h2 align="center">GitHub Dashboard</h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/stats.svg" alt="GitHub stats summary" />
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/stats.svg?v=20260723-2" alt="GitHub stats summary" />
 </div>
 
 <br />
@@ -81,8 +85,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake.svg" alt="Animated GitHub contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake-dark.svg?v=20260723-2" />
+    <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake.svg?v=20260723-2" alt="Animated GitHub contribution graph" />
   </picture>
 </div>
 
