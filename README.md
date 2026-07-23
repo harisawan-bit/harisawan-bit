@@ -32,12 +32,7 @@
 <h2 align="center">📊 GitHub Summary</h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/summary-cards/profile-summary-card-0.svg" alt="summary-1" />
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/summary-cards/profile-summary-card-1.svg" alt="summary-2" />
-</div>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/summary-cards/profile-summary-card-2.svg" alt="summary-3" />
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/summary-cards/profile-summary-card-3.svg" alt="summary-4" />
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/stats.svg" alt="stats" />
 </div>
 
 ---

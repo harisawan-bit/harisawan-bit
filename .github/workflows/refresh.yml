@@ -1,0 +1,37 @@
+name: refresh profile
+
+on:
+  schedule:
+    - cron: "7 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      STATS_USER: ${{ github.repository_owner }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate stats.svg (self-hosted, no 3rd-party)
+        run: python3 scripts/gen_stats.py
+
+      - name: generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
