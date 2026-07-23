@@ -1,14 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="58" viewBox="0 0 900 58" role="img" aria-label="Animated profile tagline">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="42%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
     </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#f5d0fe"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="900" height="54" rx="10" fill="url(#bg)"/>
-  <text x="900" y="35" font-family="'Segoe UI', 'Courier New', monospace" font-size="22" font-weight="bold" fill="#58a6ff">
-    MBBS student&nbsp;&nbsp;·&nbsp;&nbsp;AI &amp; automation builder&nbsp;&nbsp;·&nbsp;&nbsp;building in public 🩺🤖&nbsp;&nbsp;·&nbsp;&nbsp;Mehvar + RCC
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="14s" repeatCount="indefinite"/>
-  </text>
+
+  <rect width="900" height="58" rx="12" fill="url(#bg)"/>
+  <rect x="1" y="1" width="898" height="56" rx="11" fill="none" stroke="#93c5fd" stroke-opacity="0.35"/>
+
+  <g filter="url(#glow)">
+    <text x="900" y="37" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="url(#text)">
+      MBBS student | AI automation builder | clinical research tooling | dashboards | agents | data workflows | Mehvar + RCC
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1120 0" dur="16s" repeatCount="indefinite"/>
+    </text>
+  </g>
 </svg>

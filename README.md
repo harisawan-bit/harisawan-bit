@@ -1,81 +1,105 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=Haris%20Awan&fontSize=48&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=MBBS%20student%20%C2%B7%20AI%20%26%20automation%20builder%20%C2%B7%20building%20in%20public&descAlignY=55&descSize=18" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,45:2563eb,100:7c3aed&height=240&section=header&text=Haris%20Awan&fontSize=56&fontAlignY=36&animation=twinkling&fontColor=ffffff&desc=MBBS%20student%20%7C%20AI%20automation%20builder%20%7C%20clinical%20research%20tooling&descAlignY=56&descSize=18" alt="Haris Awan profile header" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/marquee.svg" alt="typing" />
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/marquee.svg" alt="animated introduction marquee" />
 </div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=harisawan-bit&label=Profile%20views&color=blueviolet&style=flat-square" alt="views" />
-  <img src="https://img.shields.io/github/followers/harisawan-bit?label=Followers&style=social" alt="followers" />
-  <img src="https://img.shields.io/github/stars/harisawan-bit?label=Stars&style=social" alt="stars" />
-</div>
+<p align="center">
+  <a href="https://github.com/harisawan-bit?tab=repositories"><img src="https://img.shields.io/badge/Explore-Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" /></a>
+  <a href="https://mehvar.store/"><img src="https://img.shields.io/badge/Visit-Mehvar-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Mehvar" /></a>
+  <a href="mailto:an25mbbs026.student@fui.edu.pk"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Haris" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=harisawan-bit&label=Profile%20views&color=2563eb&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/harisawan-bit?label=Followers&style=flat-square&logo=github" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/harisawan-bit?label=Stars&style=flat-square&logo=github" alt="GitHub stars" />
+</p>
 
 ---
 
-<h2 align="center">👋 Welcome</h2>
+<h2 align="center">About Me</h2>
 
 <p align="center">
-  🩺 <b>MBBS student</b> · 🤖 <b>AI &amp; automation builder</b> · 📊 <b>clinical-research tooling</b><br/>
-  I turn clinical curiosity into code — from SEO/GEO agents to systematic-review dashboards.
+  I build practical AI, automation, and research workflows around clinical curiosity.
+  My work sits where medicine, code, operations, and publishing meet: dashboards,
+  data cleanup, systematic-review tooling, SEO/GEO agents, and useful little systems
+  that save people from repetitive work.
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <b>Medicine</b><br />
+      MBBS student with a research-first workflow.
+    </td>
+    <td align="center" width="33%">
+      <b>Automation</b><br />
+      Python, agents, scrapers, dashboards, and local ops.
+    </td>
+    <td align="center" width="33%">
+      <b>Builder Mode</b><br />
+      Shipping tools, client work, and experiments in public.
+    </td>
+  </tr>
+</table>
+
+---
+
+<h2 align="center">Current Focus</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Clinical%20Research-0F766E?style=for-the-badge" alt="Clinical research" />
+  <img src="https://img.shields.io/badge/AI%20Agents-7C3AED?style=for-the-badge" alt="AI agents" />
+  <img src="https://img.shields.io/badge/Data%20Workflows-2563EB?style=for-the-badge" alt="Data workflows" />
+  <img src="https://img.shields.io/badge/SEO%20%2B%20GEO-F97316?style=for-the-badge" alt="SEO and GEO" />
 </p>
 
 <div align="center">
-  <a href="https://github.com/harisawan-bit?tab=repositories"><img src="https://img.shields.io/badge/Repos-View%20all-blue?style=for-the-badge&logo=github" alt="repos"/></a>
-  <a href="https://mehvar.store/"><img src="https://img.shields.io/badge/Mehvar-Visit-8A2BE2?style=for-the-badge&logo=internet-explorer" alt="mehvar"/></a>
-  <a href="mailto:an25mbbs026.student@fui.edu.pk"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" alt="email"/></a>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,node,react,fastapi,postgres,docker,linux,git,github,vscode,html,css" alt="Tech stack icons" />
 </div>
 
 ---
 
-<h2 align="center">📊 GitHub Summary</h2>
+<h2 align="center">GitHub Dashboard</h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/stats.svg" alt="stats" />
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/stats.svg" alt="GitHub stats summary" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=harisawan-bit&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="180" alt="GitHub streak" />
 </div>
 
 ---
 
-<h2 align="center">🔥 Streak</h2>
+<h2 align="center">Contribution Motion</h2>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=harisawan-bit&theme=tokyonight&hide_border=true" height="180" alt="streak"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake.svg" alt="Animated GitHub contribution graph" />
+  </picture>
 </div>
 
 ---
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<h2 align="center">Connect</h2>
+
+<p align="center">
+  <a href="https://github.com/harisawan-bit"><img src="https://img.shields.io/badge/GitHub-harisawan--bit-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+  <a href="https://mehvar.store/"><img src="https://img.shields.io/badge/Website-mehvar.store-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Mehvar website" /></a>
+  <a href="mailto:an25mbbs026.student@fui.edu.pk"><img src="https://img.shields.io/badge/Email-an25mbbs026.student%40fui.edu.pk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email address" /></a>
+</p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake.svg" alt="snake" />
-  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake-dark.svg" alt="snake-dark" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,45:2563eb,100:7c3aed&height=95&section=footer&text=Building%20useful%20things%20at%20the%20edge%20of%20medicine%20and%20code&fontSize=20&fontColor=ffffff&animation=fadeIn" alt="Footer banner" />
 </div>
 
----
-
-<h2 align="center">🛠️ Tech &amp; Tools</h2>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,node,git,github,vscode,docker,linux,html,css,fastapi,react,postgres" alt="skills"/>
-</div>
-
----
-
-<h2 align="center">🌐 Connect</h2>
-
-<div align="center">
-  <a href="https://github.com/harisawan-bit"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
-  <a href="https://mehvar.store/"><img src="https://img.shields.io/badge/Mehvar-8A2BE2?style=for-the-badge&logo=internet-explorer&logoColor=white" alt="mehvar"/></a>
-  <a href="mailto:an25mbbs026.student@fui.edu.pk"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:6a11cb,100:2575fc&height=120&section=footer&text=Thanks%20for%20stopping%20by!&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="footer" />
-</div>
-
-<div align="center">
-  <sub>⚡ Cards &amp; snake self-hosted via GitHub Actions · marquee animated SVG · auto-refreshing daily</sub>
-</div>
+<p align="center">
+  <sub>Auto-refreshing GitHub cards and contribution animation powered by GitHub Actions.</sub>
+</p>
