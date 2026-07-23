@@ -3,6 +3,10 @@
 </div>
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/marquee.svg" alt="typing" />
+</div>
+
+<div align="center">
   <img src="https://komarev.com/ghpvc/?username=harisawan-bit&label=Profile%20views&color=blueviolet&style=flat-square" alt="views" />
   <img src="https://img.shields.io/github/followers/harisawan-bit?label=Followers&style=social" alt="followers" />
   <img src="https://img.shields.io/github/stars/harisawan-bit?label=Stars&style=social" alt="stars" />
@@ -10,10 +14,10 @@
 
 ---
 
-<h2 align="center">👋 Welcome to my corner of GitHub</h2>
+<h2 align="center">👋 Welcome</h2>
 
 <p align="center">
-  🩺 <b>MBBS student</b> · 🤖 <b>AI &amp; automation builder</b> · 📊 <b>Clinical-research tooling</b><br/>
+  🩺 <b>MBBS student</b> · 🤖 <b>AI &amp; automation builder</b> · 📊 <b>clinical-research tooling</b><br/>
   I turn clinical curiosity into code — from SEO/GEO agents to systematic-review dashboards.
 </p>
 
@@ -25,24 +29,28 @@
 
 ---
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h2 align="center">📊 GitHub Summary</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=harisawan-bit&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180" alt="stats"/>
-  <img src="https://streak-stats.demolab.com/?user=harisawan-bit&theme=tokyonight&hide_border=true" height="180" alt="streak"/>
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/summary-cards/profile-summary-card-0.svg" alt="summary-1" />
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/summary-cards/profile-summary-card-1.svg" alt="summary-2" />
 </div>
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harisawan-bit&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" alt="langs"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=harisawan-bit&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=8" alt="trophies"/>
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/summary-cards/profile-summary-card-2.svg" alt="summary-3" />
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/summary-cards/profile-summary-card-3.svg" alt="summary-4" />
 </div>
 
 ---
 
-<h2 align="center">🐍 My Contribution Snake</h2>
+<h2 align="center">🔥 Streak</h2>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=harisawan-bit&theme=tokyonight&hide_border=true" height="180" alt="streak"/>
+</div>
+
+---
+
+<h2 align="center">🐍 Contribution Snake</h2>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/github-contribution-grid-snake.svg" alt="snake" />
@@ -59,7 +67,7 @@
 
 ---
 
-<h2 align="center">🌐 Connect with me</h2>
+<h2 align="center">🌐 Connect</h2>
 
 <div align="center">
   <a href="https://github.com/harisawan-bit"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
@@ -74,5 +82,5 @@
 </div>
 
 <div align="center">
-  <sub>⚡ Profile built &amp; maintained with <a href="https://cli.github.com">GitHub CLI</a> + GitHub Actions. Last refreshed automatically.</sub>
+  <sub>⚡ Cards &amp; snake self-hosted via GitHub Actions · marquee animated SVG · auto-refreshing daily</sub>
 </div>

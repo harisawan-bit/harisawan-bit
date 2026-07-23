@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="54" rx="10" fill="url(#bg)"/>
+  <text x="900" y="35" font-family="'Segoe UI', 'Courier New', monospace" font-size="22" font-weight="bold" fill="#58a6ff">
+    MBBS student&nbsp;&nbsp;·&nbsp;&nbsp;AI &amp; automation builder&nbsp;&nbsp;·&nbsp;&nbsp;building in public 🩺🤖&nbsp;&nbsp;·&nbsp;&nbsp;Mehvar + RCC
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="14s" repeatCount="indefinite"/>
+  </text>
+</svg>
