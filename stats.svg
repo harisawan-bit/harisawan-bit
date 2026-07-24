@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150">
+  <defs>
+    <linearGradient id="cardbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="150" rx="12" fill="url(#cardbg)" stroke="#30363d"/>
+  <text x="450" y="26" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="bold" fill="#e6edf3">GitHub Stats · member since 2026</text>
+  <line x1="20" y1="38" x2="880" y2="38" stroke="#30363d" stroke-width="1"/>
+    <g transform="translate(75,55)">
+      <text x="0" y="0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="bold" fill="#6a11cb">6</text>
+      <text x="0" y="26" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8b949e">Repos</text>
+    </g>
+    <g transform="translate(225,55)">
+      <text x="0" y="0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="bold" fill="#2575fc">0</text>
+      <text x="0" y="26" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8b949e">Stars</text>
+    </g>
+    <g transform="translate(375,55)">
+      <text x="0" y="0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="bold" fill="#00c6ff">0</text>
+      <text x="0" y="26" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8b949e">Followers</text>
+    </g>
+    <g transform="translate(525,55)">
+      <text x="0" y="0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="bold" fill="#ff6a00">0</text>
+      <text x="0" y="26" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8b949e">Following</text>
+    </g>
+    <g transform="translate(675,55)">
+      <text x="0" y="0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="bold" fill="#11998e">0</text>
+      <text x="0" y="26" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8b949e">Forks</text>
+    </g>
+    <g transform="translate(825,55)">
+      <text x="0" y="0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="bold" fill="#fc466b">13</text>
+      <text x="0" y="26" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8b949e">Commits</text>
+    </g>
+  <text x="450" y="138" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6e7681">Top languages: Python(3), PowerShell(1)</text>
+</svg>
