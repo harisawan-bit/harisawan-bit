@@ -18,11 +18,44 @@ MBBS student and software developer based in Islamabad, Pakistan. I build autono
 ### 💻 Tech Stack
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,fastapi,flask,ts,js,react,nextjs,nodejs,go,rust,docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel,pytorch,openai,html,css,md&theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,fastapi,flask,ts,js,react,nextjs,nodejs,go,rust,docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel,pytorch,openai,html,css,md&theme=light">
-    <img src="https://skillicons.dev/icons?i=py,fastapi,flask,ts,js,react,nextjs,nodejs,go,rust,docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel,pytorch,openai,html,css,md&theme=dark" alt="Tech stack">
-  </picture>
+
+**Languages**
+<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,go,rust,html,css,md&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,ts,js,go,rust,html,css,md&theme=light">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,html,css,md&theme=dark" alt="Languages">
+</picture>
+
+<br/><br/>
+
+**Frameworks & Libraries**
+<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=fastapi,flask,react,nextjs,nodejs,pytorch,openai&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi,flask,react,nextjs,nodejs,pytorch,openai&theme=light">
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,react,nextjs,nodejs,pytorch,openai&theme=dark" alt="Frameworks & Libraries">
+</picture>
+
+<br/><br/>
+
+**Infra & Tools**
+<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel&theme=light">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel&theme=dark" alt="Infra & Tools">
+</picture>
+
+<br/><br/>
+
+**📚 Currently learning**
+<br/>
+<img src="https://img.shields.io/badge/Agentic%20RAG-0A101F?style=for-the-badge&logoColor=22D3EE&labelColor=0A101F" alt="Agentic RAG">
+<img src="https://img.shields.io/badge/Distributed%20Systems-0A101F?style=for-the-badge&logoColor=A78BFA&labelColor=0A101F" alt="Distributed Systems">
+<img src="https://img.shields.io/badge/CUDA-0A101F?style=for-the-badge&logoColor=10B981&labelColor=0A101F" alt="CUDA">
+<img src="https://img.shields.io/badge/Clinical%20NLP-0A101F?style=for-the-badge&logoColor=22D3EE&labelColor=0A101F" alt="Clinical NLP">
+
 </div>
 
 <br>
