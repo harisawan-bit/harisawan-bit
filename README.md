@@ -22,9 +22,9 @@ MBBS student and software developer based in Islamabad, Pakistan. I build autono
 **Languages**
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,go,rust,html,css,md&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,ts,js,go,rust,html,css,md&theme=light">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,html,css,md&theme=dark" alt="Languages">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-languages-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-languages-light.svg">
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-languages-dark.svg" alt="Languages">
 </picture>
 
 <br/><br/>
@@ -32,9 +32,9 @@ MBBS student and software developer based in Islamabad, Pakistan. I build autono
 **Frameworks & Libraries**
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=fastapi,flask,react,nextjs,nodejs,pytorch,openai&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi,flask,react,nextjs,nodejs,pytorch,openai&theme=light">
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,react,nextjs,nodejs,pytorch,openai&theme=dark" alt="Frameworks & Libraries">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-frameworks-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-frameworks-light.svg">
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-frameworks-dark.svg" alt="Frameworks & Libraries">
 </picture>
 
 <br/><br/>
@@ -42,9 +42,9 @@ MBBS student and software developer based in Islamabad, Pakistan. I build autono
 **Infra & Tools**
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel&theme=light">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel&theme=dark" alt="Infra & Tools">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-infra-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-infra-light.svg">
+  <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-infra-dark.svg" alt="Infra & Tools">
 </picture>
 
 <br/><br/>
