@@ -19,9 +19,9 @@ MBBS student and software developer based in Islamabad, Pakistan. I build autono
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,js,ts,docker,git,linux,bash,md,vscode,github&theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,js,ts,docker,git,linux,bash,md,vscode,github&theme=light">
-    <img src="https://skillicons.dev/icons?i=py,js,ts,docker,git,linux,bash,md,vscode,github&theme=dark" alt="Tech stack">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,fastapi,flask,ts,js,react,nextjs,nodejs,go,rust,docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel,pytorch,openai,html,css,md&theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,fastapi,flask,ts,js,react,nextjs,nodejs,go,rust,docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel,pytorch,openai,html,css,md&theme=light">
+    <img src="https://skillicons.dev/icons?i=py,fastapi,flask,ts,js,react,nextjs,nodejs,go,rust,docker,kubernetes,postgres,redis,mongodb,nginx,grafana,linux,bash,vim,git,github,vscode,vercel,pytorch,openai,html,css,md&theme=dark" alt="Tech stack">
   </picture>
 </div>
 
