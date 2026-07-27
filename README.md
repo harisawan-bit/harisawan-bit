@@ -1,17 +1,13 @@
-<!-- ============================================================
-     HARIS AWAN — GitHub Profile README (Minimalist)
-     Theme: dark + red (#ff4747). On-brand with current profile.
-     ============================================================ -->
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
+<!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ff4747&height=120&section=header&text=HARIS%20AWAN&fontSize=60&fontAlignY=45&desc=Software%20Developer%20%7C%20MBBS&descAlignY=70&descSize=18&descColor=ffffff&animation=fadeIn" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
+  <img alt="Haris Awan" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
+</picture>
 
-<div align="center">
-  <i>Building autonomous agents, backend infrastructure, and research tooling.</i>
-</div>
-
-<br>
+<!-- ===== ABOUT ===== -->
 
 ### 👋 About
 
@@ -22,35 +18,87 @@ MBBS student and software developer based in Islamabad, Pakistan. I build autono
 ### 💻 Tech Stack
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,ts,docker,git,linux,bash,md,vscode,github&theme=dark" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,js,ts,docker,git,linux,bash,md,vscode,github&theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,js,ts,docker,git,linux,bash,md,vscode,github&theme=light">
+    <img src="https://skillicons.dev/icons?i=py,js,ts,docker,git,linux,bash,md,vscode,github&theme=dark" alt="Tech stack">
+  </picture>
 </div>
 
 <br>
 
-### 🚀 Projects
-
-| Project | Description |
-| :--- | :--- |
-| **[RankForge SEO Agent](https://github.com/harisawan-bit/rankforge-seo-agent)** | Autonomous SEO / GEO / AEO workflow for Claude, Codex, and Cursor. |
-| **[Ollama Benchmark CLI](https://github.com/harisawan-bit/ollama-benchmark-cli)** | Python CLI for rigorous local LLM performance benchmarking. |
-| **[Evidence Synth](https://github.com/harisawan-bit/evidence-synth)** | PRISMA pipeline: search, AI screening, meta-analysis, forest plots. |
-| **[SRMA Gap](https://github.com/harisawan-bit/srma-gap)** | Pre-flight evidence-gap checker for systematic-review topics. |
-| **[Provena](https://github.com/harisawan-bit/provena)** | Context governance for agentic AI — provenance, audit, compliance. |
-
-<br>
-
-### 🔗 Connect
+<!-- ===== GITHUB STATS ===== -->
 
 <div align="center">
-  <a href="mailto:an25mbbs026.student@fui.edu.pk">
-    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=mail.ru&logoColor=ff4747" />
-  </a>
-  <a href="https://github.com/harisawan-bit">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=ff4747" />
-  </a>
-  <a href="https://mehvar.store/">
-    <img src="https://img.shields.io/badge/Mehvar-000000?style=for-the-badge&logo=web&logoColor=ff4747" />
-  </a>
+
+<!-- Streak — full width -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=harisawan-bit&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=harisawan-bit&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Haris's streak" />
+</picture>
+
+<br/>
+
+<!-- Stats + Top languages — side by side -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=harisawan-bit&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=harisawan-bit&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Haris's GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=harisawan-bit&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harisawan-bit&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+</picture>
+
 </div>
+
+<!-- ===== CONTRIBUTION SNAKE ===== -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/snake-light.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/snake-light.svg" />
+</picture>
+
+</div>
+
+<!-- ===== END SNAKE ===== -->
+
+<br/>
+<br/>
+
+<div align="center">
+<img width="100%" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/projects/projects.svg" alt="Projects" />
+</div>
+
+<!-- ===== SOCIAL BADGES ===== -->
+<br/>
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/muhammad-haris-awan-b8884b190/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=0A101F" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://instagram.com/harisawan._">
+  <img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA&labelColor=0A101F" alt="Instagram" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:an25mbbs026.student@fui.edu.pk">
+  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
+</a>
+&nbsp;&nbsp;
+<a href="https://orcid.org/0009-0009-0192-337X">
+  <img src="https://img.shields.io/badge/ORCID-0A101F?style=for-the-badge&logo=orcid&logoColor=22D3EE&labelColor=0A101F" alt="ORCID" />
+</a>
+&nbsp;&nbsp;
+<a href="https://mehvar.store/">
+  <img src="https://img.shields.io/badge/Mehvar-0A101F?style=for-the-badge&logo=web&logoColor=10B981&labelColor=0A101F" alt="Mehvar" />
+</a>
+
+</div>
+
+<!-- ===== END SOCIAL BADGES ===== -->
+
+<!-- =================================== -->

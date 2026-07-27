@@ -1,0 +1,37 @@
+[
+  {
+    "name": "RankForge SEO Agent",
+    "repo": "harisawan-bit/rankforge-seo-agent",
+    "logo": null,
+    "description": "Autonomous SEO / GEO / AEO workflow for Claude, Codex, and Cursor.",
+    "tags": ["Python", "Agents", "SEO"]
+  },
+  {
+    "name": "Ollama Benchmark CLI",
+    "repo": "harisawan-bit/ollama-benchmark-cli",
+    "logo": null,
+    "description": "Python CLI for rigorous local LLM performance benchmarking.",
+    "tags": ["Python", "CLI", "LLM"]
+  },
+  {
+    "name": "Evidence Synth",
+    "repo": "harisawan-bit/evidence-synth",
+    "logo": null,
+    "description": "PRISMA pipeline: search, dedup, AI screening, meta-analysis, forest plots.",
+    "tags": ["Python", "Research", "Meta-Analysis"]
+  },
+  {
+    "name": "SRMA Gap",
+    "repo": "harisawan-bit/srma-gap",
+    "logo": null,
+    "description": "Pre-flight evidence-gap checker for systematic-review topics.",
+    "tags": ["Python", "Research", "SRMA"]
+  },
+  {
+    "name": "Provena",
+    "repo": "harisawan-bit/provena",
+    "logo": null,
+    "description": "Context governance for agentic AI — provenance, audit, compliance.",
+    "tags": ["Python", "Agents", "Governance"]
+  }
+]
