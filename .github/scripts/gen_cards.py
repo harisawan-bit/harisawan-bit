@@ -47,6 +47,9 @@ def main():
         user = api(f"/users/{USER}") or {}
         created = (user.get("created_at") or "")[:4]
         repos = api(f"/users/{USER}/repos?per_page=100&type=public") or []
+        # Forks are other people's code; counting their bytes misrepresents
+        # the operator's own language distribution.
+        repos = [r for r in repos if not r.get("fork")]
         try:
             commits = api("/search/commits?q=author:" + USER,
                           "application/vnd.github.cloak-preview+json").get("total_count", 0) or 0
@@ -76,7 +79,7 @@ def main():
 
     total = sum(lang_bytes.values()) or 1
     top_langs = sorted(lang_bytes.items(), key=lambda x: -x[1])[:7]
-    top3 = ", ".join(l for l, _ in sorted(lang_bytes.items(), key=lambda x: -x[1])[:3]) or "—"
+    top3 = ", ".join(l for l, _ in sorted(lang_bytes.items(), key=lambda x: -x[1])[:3]) or "\u2014"
 
     metrics = [
         ("Repos", public_repos), ("Stars", stars), ("Followers", followers),

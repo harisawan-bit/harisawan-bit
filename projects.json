@@ -1,17 +1,10 @@
 [
   {
-    "name": "RankForge SEO Agent",
-    "repo": "harisawan-bit/rankforge-seo-agent",
+    "name": "poolr",
+    "repo": "harisawan-bit/poolr",
     "logo": null,
-    "description": "Autonomous SEO / GEO / AEO workflow for Claude, Codex, and Cursor.",
-    "tags": ["Python", "Agents", "SEO"]
-  },
-  {
-    "name": "Ollama Benchmark CLI",
-    "repo": "harisawan-bit/ollama-benchmark-cli",
-    "logo": null,
-    "description": "Python CLI for rigorous local LLM performance benchmarking.",
-    "tags": ["Python", "CLI", "LLM"]
+    "description": "No-code desktop SRMA suite — full PRISMA 2020 pipeline to publication-ready manuscript.",
+    "tags": ["TypeScript", "C# / .NET 8", "Tauri"]
   },
   {
     "name": "Evidence Synth",
@@ -21,17 +14,31 @@
     "tags": ["Python", "Research", "Meta-Analysis"]
   },
   {
+    "name": "LocalLLM-iOS",
+    "repo": "harisawan-bit/LocalLLM-iOS",
+    "logo": null,
+    "description": "Sideloadable on-device LLM server — llama.cpp Metal, OpenAI-compatible API over Wi-Fi.",
+    "tags": ["Swift", "Metal", "llama.cpp"]
+  },
+  {
+    "name": "Episteme",
+    "repo": "harisawan-bit/episteme",
+    "logo": null,
+    "description": "Reproducible, dependency-free SRMA engine — PubMed to SVG figures in one command.",
+    "tags": ["Python", "Research", "SRMA"]
+  },
+  {
     "name": "SRMA Gap",
     "repo": "harisawan-bit/srma-gap",
     "logo": null,
     "description": "Pre-flight evidence-gap checker for systematic-review topics.",
-    "tags": ["Python", "Research", "SRMA"]
+    "tags": ["Python", "PubMed", "PROSPERO"]
   },
   {
-    "name": "Provena",
-    "repo": "harisawan-bit/provena",
+    "name": "Ollama Benchmark CLI",
+    "repo": "harisawan-bit/ollama-benchmark-cli",
     "logo": null,
-    "description": "Context governance for agentic AI — provenance, audit, compliance.",
-    "tags": ["Python", "Agents", "Governance"]
+    "description": "Instrumentation for rigorous local LLM performance benchmarking.",
+    "tags": ["Python", "CLI", "LLM"]
   }
 ]

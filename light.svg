@@ -1,31 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="320" viewBox="0 0 1180 320" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Haris Awan">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="320" viewBox="0 0 1180 320" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Haris Awan — operations console">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F8FAFC"/>
-      <stop offset="1" stop-color="#EEF2F7"/>
+    <linearGradient id="bgL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F7FB"/>
     </linearGradient>
-    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#0891B2;#059669;#7C3AED" dur="10s" repeatCount="indefinite"/></stop>
-      <stop offset="1" stop-color="#059669"><animate attributeName="stop-color" values="#059669;#7C3AED;#0891B2;#059669" dur="10s" repeatCount="indefinite"/></stop>
+    <linearGradient id="accL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0891B2">
+        <animate attributeName="stop-color" values="#0891B2;#7C3AED;#059669;#0891B2" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#059669">
+        <animate attributeName="stop-color" values="#059669;#0891B2;#7C3AED;#059669" dur="12s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="38%" r="62%">
-      <stop offset="0" stop-color="#0891B2" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#0891B2"/>
+    <pattern id="gridL" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0891B2" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
+    <linearGradient id="sweepL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0891B2" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#0891B2" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
-  <rect width="1180" height="320" fill="url(#bg)"/>
-  <rect width="1180" height="320" fill="url(#glow)"/>
-  <rect width="1180" height="320" fill="url(#dots)" opacity="0.07"/>
+  <rect width="1180" height="320" fill="url(#bgL)"/>
+  <rect width="1180" height="320" fill="url(#gridL)"/>
 
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0s" fill="freeze"/>
-    <text x="60" y="152" font-size="64" font-weight="800" fill="#0F172A" letter-spacing="2">HARIS AWAN</text>
-    <text x="62" y="196" font-size="20" fill="#475569">Software Developer &#183; MBBS &#183; Autonomous Agents &amp; Research Tooling</text>
-    <rect x="60" y="222" width="180" height="4" rx="2" fill="url(#acc)"/>
-    <text x="60" y="266" font-size="13" fill="#7C3AED">~/harisawan-bit &#8212; building in public</text>
+  <rect x="-260" y="0" width="260" height="320" fill="url(#sweepL)">
+    <animate attributeName="x" values="-260;1180" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <g stroke="#0891B2" stroke-opacity="0.5" stroke-width="2" fill="none">
+    <path d="M14 30 V14 H30"/>
+    <path d="M1150 14 H1166 V30"/>
+    <path d="M1166 290 V306 H1150"/>
+    <path d="M30 306 H14 V290"/>
   </g>
+
+  <text x="40" y="26" font-size="11" letter-spacing="2" fill="#64748B">PERSONAL OPERATIONS NETWORK // UNCLASSIFIED</text>
+  <text x="1140" y="26" font-size="11" letter-spacing="2" fill="#64748B" text-anchor="end">GRID 33.68N 073.05E // ISLAMABAD</text>
+  <line x1="14" y1="38" x2="1166" y2="38" stroke="#0891B2" stroke-opacity="0.25"/>
+
+  <text x="60" y="100" font-size="15" fill="#0891B2">&gt; whoami</text>
+  <rect x="152" y="86" width="10" height="18" fill="#0891B2">
+    <animate attributeName="opacity" values="1;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+  <text x="57" y="166" font-size="60" font-weight="800" letter-spacing="4" fill="#0F172A">HARIS AWAN</text>
+  <rect x="60" y="186" width="240" height="3" fill="url(#accL)"/>
+  <text x="60" y="220" font-size="15" letter-spacing="1" fill="#475569">AUTONOMOUS AGENTS &#183; RESEARCH TOOLING &#183; EVIDENCE SYNTHESIS</text>
+  <text x="60" y="248" font-size="12" fill="#94A3B8">MBBS &#8212; systems discipline applied to clinical research and machine intelligence</text>
+
+  <rect x="880" y="64" width="286" height="192" rx="8" fill="#F8FAFC" stroke="#0891B2" stroke-opacity="0.35"/>
+  <text x="900" y="90" font-size="11" letter-spacing="3" fill="#0891B2">TELEMETRY</text>
+  <line x1="900" y1="100" x2="1146" y2="100" stroke="#0891B2" stroke-opacity="0.25"/>
+
+  <text x="900" y="122" font-size="11" fill="#64748B">FOCUS</text>
+  <line x1="985" y1="119" x2="1050" y2="119" stroke="#94A3B8" stroke-dasharray="2 3"/>
+  <text x="1146" y="122" font-size="11" fill="#0F172A" text-anchor="end">AGENT SYSTEMS</text>
+
+  <text x="900" y="146" font-size="11" fill="#64748B">DOMAIN</text>
+  <line x1="985" y1="143" x2="1050" y2="143" stroke="#94A3B8" stroke-dasharray="2 3"/>
+  <text x="1146" y="146" font-size="11" fill="#0F172A" text-anchor="end">EVIDENCE SYNTHESIS</text>
+
+  <text x="900" y="170" font-size="11" fill="#64748B">LEAD LANG</text>
+  <line x1="985" y1="167" x2="1050" y2="167" stroke="#94A3B8" stroke-dasharray="2 3"/>
+  <text x="1146" y="170" font-size="11" fill="#0F172A" text-anchor="end">TYPESCRIPT</text>
+
+  <text x="900" y="194" font-size="11" fill="#64748B">STATUS</text>
+  <line x1="985" y1="191" x2="1050" y2="191" stroke="#94A3B8" stroke-dasharray="2 3"/>
+  <rect x="1058" y="185" width="6" height="6" fill="#059669">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="1146" y="194" font-size="11" fill="#059669" text-anchor="end">OPERATIONAL</text>
+
+  <text x="900" y="216" font-size="10" letter-spacing="2" fill="#94A3B8">SYS.ACTIVITY</text>
+  <g>
+    <rect x="900"  y="238" width="10" height="10" fill="#0891B2" opacity="0.65"><animate attributeName="height" values="10;20;10" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="238;228;238" dur="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="925"  y="226" width="10" height="22" fill="#7C3AED" opacity="0.55"><animate attributeName="height" values="22;12;22" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="226;236;226" dur="1.6s" repeatCount="indefinite"/></rect>
+    <rect x="950"  y="232" width="10" height="16" fill="#0891B2" opacity="0.65"><animate attributeName="height" values="16;26;16" dur="2.1s" repeatCount="indefinite"/><animate attributeName="y" values="232;222;232" dur="2.1s" repeatCount="indefinite"/></rect>
+    <rect x="975"  y="220" width="10" height="28" fill="#7C3AED" opacity="0.55"><animate attributeName="height" values="28;16;28" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="220;232;220" dur="1.7s" repeatCount="indefinite"/></rect>
+    <rect x="1000" y="236" width="10" height="12" fill="#059669" opacity="0.55"><animate attributeName="height" values="12;22;12" dur="1.9s" repeatCount="indefinite"/><animate attributeName="y" values="236;226;236" dur="1.9s" repeatCount="indefinite"/></rect>
+    <rect x="1025" y="228" width="10" height="20" fill="#0891B2" opacity="0.65"><animate attributeName="height" values="20;10;20" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="228;238;228" dur="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="1050" y="234" width="10" height="14" fill="#7C3AED" opacity="0.55"><animate attributeName="height" values="14;24;14" dur="2.2s" repeatCount="indefinite"/><animate attributeName="y" values="234;224;234" dur="2.2s" repeatCount="indefinite"/></rect>
+    <rect x="1075" y="222" width="10" height="26" fill="#0891B2" opacity="0.65"><animate attributeName="height" values="26;14;26" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="222;234;222" dur="1.8s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <line x1="14" y1="282" x2="1166" y2="282" stroke="#0891B2" stroke-opacity="0.25"/>
+  <rect x="40" y="296" width="7" height="7" fill="#059669"/>
+  <text x="54" y="304" font-size="11" letter-spacing="1" fill="#475569">SYS NOMINAL</text>
+  <rect x="180" y="296" width="7" height="7" fill="#059669"/>
+  <text x="194" y="304" font-size="11" letter-spacing="1" fill="#475569">CI PASSING</text>
+  <rect x="320" y="296" width="7" height="7" fill="#0891B2"/>
+  <text x="334" y="304" font-size="11" letter-spacing="1" fill="#475569">SEC HARDENED</text>
+  <text x="1140" y="304" font-size="11" letter-spacing="2" fill="#94A3B8" text-anchor="end">SESSION // PERSISTENT</text>
 </svg>
