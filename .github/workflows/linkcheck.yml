@@ -1,0 +1,23 @@
+name: Linkcheck
+
+# Guards the public GitHub profile page against broken-image regressions:
+# every repo-relative image path referenced in README.md must exist in the tree.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify README image links
+        run: bash .github/scripts/linkcheck.sh
