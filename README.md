@@ -1,3 +1,8 @@
+<!-- profile linkcheck: guards against broken-image regressions -->
+<div align="center">
+  <img src="https://github.com/harisawan-bit/harisawan-bit/actions/workflows/linkcheck.yml/badge.svg" alt="README linkcheck">
+</div>
+
 <!-- ============================================================ -->
 <!--  HARIS AWAN // PERSONAL OPERATIONS NETWORK                    -->
 <!--  THEME: QUANT TERMINAL / MILITARY INFRASTRUCTURE              -->
