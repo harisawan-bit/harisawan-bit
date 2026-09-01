@@ -1,0 +1,9 @@
+{
+  "name": "@harisawan-bit/gh-stats",
+  "version": "1.0.0",
+  "description": "Tiny GitHub profile stats fetcher",
+  "main": "index.js",
+  "bin": { "gh-stats": "cli.js" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com" },
+  "license": "MIT"
+}
