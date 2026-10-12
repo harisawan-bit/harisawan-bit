@@ -49,7 +49,6 @@ machine intelligence; systems discipline applied to clinical research.
 | `SCA` | **[sentinel-cyber-agent](https://github.com/harisawan-bit/sentinel-cyber-agent)** | Unified MIT-licensed cyber security orchestration agent: wraps nuclei, subfinder, httpx, sherlock, prowler behind one plugin API | `C` | `v2.5.0 ONLINE` |
 | `OBC` | **[ollama-benchmark-cli](https://github.com/harisawan-bit/ollama-benchmark-cli)** | Instrumentation for rigorous local LLM performance benchmarking | `Python` | `v1.0.0 STABLE` |
 | `RGF` | **[rankforge-seo-agent](https://github.com/harisawan-bit/rankforge-seo-agent)** | Autonomous SEO / GEO / AEO workflow for coding agents | `PowerShell` | `v1.0.0 EXPERIMENTAL` |
-| `SH1` | **[sha1-cracker-ios](https://github.com/harisawan-bit/sha1-cracker-ios)** | GPU-accelerated SHA-1 suffix search for iOS: heterogeneous Metal + CPU ARM64 engines, checkpoint resume | `Swift` `Metal` | `v1.2.0 STABLE` |
 
 <!-- ===== 01b // UPSTREAM CONTRIBUTIONS ===== -->
 
@@ -207,7 +206,3 @@ $ git log --author="Muhammad Haris Awan" --pretty=format:"%h %s"
 </div>
 
 <!-- ==================== END OF TRANSMISSION ==================== -->
-
-<!-- heartbeat -->
-
-<!-- pair-extraordinaire: co-authored commit -->
