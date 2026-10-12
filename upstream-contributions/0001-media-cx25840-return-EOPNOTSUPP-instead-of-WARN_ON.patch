@@ -1,0 +1,215 @@
+From patchwork Fri Sep  4 10:56:25 2026
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Patchwork-Submitter: Haris Awan <harisawan5468@gmail.com>
+X-Patchwork-Id: 158059
+X-Patchwork-Delegate: hverkuil@xs4all.nl
+Received: from sea.lore.kernel.org ([172.234.253.10])
+	by linuxtv.org with esmtps  (TLS1.3) tls
+ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from
+ <linux-media+bounces-72576-patchwork=linuxtv.org@vger.kernel.org>)
+	id 1x2SeP-0001jn-2M
+	for patchwork@linuxtv.org;
+	Fri, 04 Sep 2026 12:04:10 +0000
+Received: from smtp.subspace.kernel.org (conduit.subspace.kernel.org
+ [100.90.174.1])
+	by sea.lore.kernel.org (Postfix) with ESMTP id 7A689E8C50
+	for <patchwork@linuxtv.org>; Fri,  4 Sep 2026 10:59:38 +0000 (UTC)
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1])
+	by smtp.subspace.kernel.org (Postfix) with ESMTP id D25DE48BD5B;
+	Fri,  4 Sep 2026 10:56:41 +0000 (UTC)
+Authentication-Results: smtp.subspace.kernel.org;
+	dkim=pass (2048-bit key) header.d=gmail.com header.i=@gmail.com
+ header.b="pwpOxanm"
+X-Original-To: linux-media@vger.kernel.org
+Received: from mail-pg1-f180.google.com (mail-pg1-f180.google.com
+ [209.85.215.180])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by smtp.subspace.kernel.org (Postfix) with ESMTPS id 4B54B48BD57
+	for <linux-media@vger.kernel.org>; Fri,  4 Sep 2026 10:56:40 +0000 (UTC)
+Authentication-Results: smtp.subspace.kernel.org;
+ arc=pass smtp.client-ip=209.85.215.180
+ARC-Seal: i=2; a=rsa-sha256; d=subspace.kernel.org; s=arc-20240116;
+	t=1788519401; cv=pass;
+ b=GN7mgzGIptPWgBZEuAvu6rw/d3HU+RLj2rmlNdGXqAbdKfOX+pQbw7SV14aZDHMiIwb6/arcptf6Np21ygF/i0fYQEr/n6m0IxG8H/AAU0MKWQfgwS7OSqh9yHjqhpiCInwlzecr1V6T3RgLnezCaA0kaeLk366H2SgvtuudneY=
+ARC-Message-Signature: i=2; a=rsa-sha256; d=subspace.kernel.org;
+	s=arc-20240116; t=1788519401; c=relaxed/simple;
+	bh=+SmBCrEOOdHj03PtnD8KMDjAiP1JQQo5/089uZemCT0=;
+	h=MIME-Version:From:Date:Message-ID:Subject:To:Cc:Content-Type;
+ b=TpC/EmKzDHMqRJMlRy+Df1uPcM1WV8Vh8vMBVVxyCk/NNBi24yU3A0oycednnkEl83dJjduHMBNduuvwwJHR0KiqjOfozrQH4kFJ2dFKsl0ftngVTcKmpp7y0J48URILxYT3GBXfwLwyLZmjkRNjqrBt7CRjd5+wwIXFfWvpoho=
+ARC-Authentication-Results: i=2; smtp.subspace.kernel.org;
+ dmarc=pass (p=none dis=none) header.from=gmail.com;
+ spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass (2048-bit key) header.d=gmail.com header.i=@gmail.com
+ header.b=pwpOxanm; arc=pass smtp.client-ip=209.85.215.180
+Authentication-Results: smtp.subspace.kernel.org;
+ dmarc=pass (p=none dis=none) header.from=gmail.com
+Authentication-Results: smtp.subspace.kernel.org;
+ spf=pass smtp.mailfrom=gmail.com
+Received: by mail-pg1-f180.google.com with SMTP id
+ 41be03b00d2f7-c9aea40d799so586683a12.0
+        for <linux-media@vger.kernel.org>;
+ Fri, 04 Sep 2026 03:56:40 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1788519400; cv=none;
+        d=google.com; s=arc-20260327;
+        b=hBqSQXPRgkyMgbmBzAFbet//aJkp8qxU8fPotClT6ELVYs9OTSkRzIlUXkMl5aJd63
+         1XvmlpubgUEn8Wp4nitKbaZIhW/XCpRG18UBPzFjV0UsztQ0Nx9/ZLzPoh/WLUnZC6Qm
+         4cwCyScSvZvwxYClsvQaMncbWOWLM+2gtBBGAZciARStyWhZOqsBkd3Kals3uNwBrgRv
+         uFMMpSzQUcLTN6N6tmBxUnsvhJ8ooLOasryqUQtwwz8K4R5eoQoxY5jBwjMh+55SKrDO
+         S3I/0bIo1gjxSzZHnCNsdZ0raC6GKG5kLVWCc2E1/5HsSkNppVnyef+Aov053tZ3kwjx
+         UAVA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20260327;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=3rbbU3f1EGMGd4b9gzwy5CKXVyVuPdXN5nzwTWhOpwY=;
+        fh=s3K8xdRNWoCij/b6nB1SYDVBKFVfdZcA2uIYTbwShio=;
+        b=tAkKLwGT6BUapEqjuj9Si9NnCMp2tNRFHKbGLeysIlt7FBcHd7L/gXL6JfZuQTcDz9
+         5WBQrIC2WwIhXJ78HC18o5Q8dM0IpczZ/i/dj8SiGp9VPYIqKksys+kSIVKiLEyTuRD3
+         BKSyo1GwZOwRdhlCTebHgnS3CHeCagzQ8JUWmZtaZD6uxoAx/lEQBUDode3sZxDiZpOS
+         iK2bwDEUMrnboR3pIQ8yXOo2YEDqF/08rsptXp+7MkTnsJXgPah3SYy/9qbTGveRNvzd
+         XWkcUVIZg8+EIAOE+Mkn/0bQTTR7FXwW14FKKWLzLEAuiCoGXQ9G8nO20doS0Tp3cfkF
+         H7fg==;
+        darn=vger.kernel.org
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1788519400; x=1789124200;
+ darn=vger.kernel.org;
+        h=content-type:cc:to:subject:message-id:date:from:mime-version:from
+         :to:cc:subject:date:message-id:reply-to:content-type;
+        bh=3rbbU3f1EGMGd4b9gzwy5CKXVyVuPdXN5nzwTWhOpwY=;
+        b=pwpOxanmeHuOdOzDQQ6RFX41S56yTuqMbtNo5Jj+R6nVozeN/mbzUwKveu7mRmwgae
+         YwQJs/cuq9dZZNEnr6jCORMl2PVK/oXEBq1xpq9QMtvZSMeMopFZaRvSe4pZo2e7zZij
+         7W3y2INHXBkuT6yWOzcXaWWzchBceY+4iM4vnD734faSIcvQjMse123KFFv0UiJY7jwL
+         +fC+3aTqKQ5fxsY3dyKF7F+O6GTRrixOjl7XNu+rXri3bnE9yDgJmrHKLVbpMdHclQj8
+         X5mWAwYGjvkjRKaivGv84umByMWaEJG5KPITMmE51nsnkRk0fmmub5ZVLigThC4hyrqm
+         ckFQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1788519400; x=1789124200;
+        h=content-type:cc:to:subject:message-id:date:from:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to:content-type;
+        bh=3rbbU3f1EGMGd4b9gzwy5CKXVyVuPdXN5nzwTWhOpwY=;
+        b=A4ak1rEyQY+pwUQ0i+2BrPbywSxBjIL2FoeAJvV3LeA0WTbF8eqsM5eYEDgrBkkWsp
+         KflQSF9TuO4dgss1hcu3hXF/H456dQZdaAlC1ZrqtU6BAsqISlsPhUtOtASpShGM2Eob
+         Aca0zaWD4H1OPGk1cLukZFe6iiKv76S56noQe24GQvUsrgo0L1TpCw+2zoWWAWaf2+Qt
+         Roc4OIOzvzdgVCKVOOPPWSqMnewZMGB3FZMA+hWD+evP9IYiPLXxXDml8WCrgZfHrwvW
+         EZoOwT74bN2CKSvJGtcec8/TCMkZOIhIEegytHklGc7+1fAtWbVeK7qYJl/8Gk+7Y57t
+         mnIQ==
+X-Gm-Message-State: AFuF++lxySmG1w/1p22NhCR4nUnRRkm10PD2C6Sisx5I1zl69N0SJlHR
+	t3gnBbR9Z21ypZN9w0RY/kYw1aKm4bMAY2HFFJfVgZRYeHgIORQHMedI+JzOZOEn5OR0zen73lq
+	9cr0Fd/D458tpxjzHRlLA9xJY+EtWZmQ=
+X-Gm-Gg: AYBFou3pdyo4UvzmNyrQbP/c97LzGV4GKectGpzH0aRZcrJog61PSk1L/F1mW+l59sM
+	u5D6nV0nlLYSaQCgdV+C+y9hKQTK5s0/tfEPEbQdFQTjXqRjVWcPzdK3gxIIR/UKlfBk/Vv9ESE
+	/kAJIYtdGu/6xKg27VSFclVd28zoGs7oyvijQyeE18jtu2FbiQTzLcmB9AJwtsgmeU7bANhGlJU
+	3IYu/pCC8rkgVO/MFb5RD8XnF0OLGhWWu4jYUOgCremOeZzcQKvzgIUu/SrNM/ucy0UeyaUbcef
+	ltfN6Gtf27j/D6RmfAY08BWo2+sJr4CI+VmgNCf2xUR5S5wmHNi+zxI14p+UOIBdPCaEFYlq7FD
+	U
+X-Received: by 2002:a17:90b:2ccf:b0:398:a2a3:b631 with SMTP id
+ 98e67ed59e1d1-39b262aaf3dmr8860326a91.19.1788519399472; Fri, 04 Sep 2026
+ 03:56:39 -0700 (PDT)
+Precedence: bulk
+X-Mailing-List: linux-media@vger.kernel.org
+List-Id: <linux-media.vger.kernel.org>
+List-Subscribe: <mailto:linux-media+subscribe@vger.kernel.org>
+List-Unsubscribe: <mailto:linux-media+unsubscribe@vger.kernel.org>
+MIME-Version: 1.0
+From: Haris Awan <harisawan5468@gmail.com>
+Date: Fri, 4 Sep 2026 15:56:25 +0500
+X-Gm-Features: AcwNN1XbTWM4JpFOIOHuHL3aeuQgYjvSzPcBRsbqj8ih8ilxaWhoAt4_-NlMhs4
+Message-ID: 
+ <CACaF87XKQbdLEHTCLFZh=TAt__dZzWf_d1vneKU9Lnx8kAHEiA@mail.gmail.com>
+Subject: [PATCH] media: cx25840: return -EOPNOTSUPP instead of WARN_ON in
+ cx25840_init
+To: mchehab@kernel.org
+Cc: linux-media@vger.kernel.org, linux-kernel@vger.kernel.org,
+	syzbot+9123948aef13fe92d706@syzkaller.appspotmail.com
+X-LSpam-Score: -5.3 (-----)
+X-LSpam-Report: No,
+ score=-5.3 required=5.0
+ tests=ARC_SIGNED=0.001,ARC_VALID=-0.1,BAYES_00=-1.9,DKIM_SIGNED=0.1,DKIM_VALID=-0.1,DKIM_VALID_AU=-0.1,DMARC_PASS=-0.001,FREEMAIL_FORGED_FROMDOMAIN=1,FREEMAIL_FROM=0.001,HEADER_FROM_DIFFERENT_DOMAINS=0.5,MAILING_LIST_MULTI=-1,RCVD_IN_VALIDITY_CERTIFIED=-3,RCVD_IN_VALIDITY_RPBL=1.31,RCVD_IN_VALIDITY_SAFE=-2,SPF_HELO_NONE=0.001,SPF_PASS=-0.001,URIBL_BLOCKED=0.001
+ autolearn=unavailable autolearn_force=no
+
+From: Muhammad Haris Awan <m.harisawan@icloud.com>
+Subject: [PATCH] media: cx25840: return -EOPNOTSUPP instead of WARN_ON
+in cx25840_init
+
+cx25840_init() implements generic mode video output configuration only
+for cx2584x chips. For other chips, it triggers a WARN_ON(1) and returns
+0, falsely indicating successful initialization while leaving the chip
+unconfigured and marking generic_mode as true.
+
+Using WARN_ON() for unsupported hardware variants is discouraged as it
+triggers kernel warnings and syzbot alerts on faulty or unsupported
+devices.
+
+Return -EOPNOTSUPP early if the chip is not a cx2584x variant so callers
+(such as cxusb_medion_register_analog_subdevs()) can handle the error
+cleanly.
+
+Reported-by: syzbot+9123948aef13fe92d706@syzkaller.appspotmail.com
+Closes: https://syzkaller.appspot.com/bug?extid=9123948aef13fe92d706
+Tested-by: syzbot+9123948aef13fe92d706@syzkaller.appspotmail.com
+Signed-off-by: Muhammad Haris Awan <m.harisawan@icloud.com>
+---
+ drivers/media/i2c/cx25840/cx25840-core.c | 28 +++++++++++-------------
+ 1 file changed, 13 insertions(+), 15 deletions(-)
+
+--
+
+diff --git a/drivers/media/i2c/cx25840/cx25840-core.c
+b/drivers/media/i2c/cx25840/cx25840-core.c
+index a8e21a28174f..6df912c9381b 100644
+--- a/drivers/media/i2c/cx25840/cx25840-core.c
++++ b/drivers/media/i2c/cx25840/cx25840-core.c
+@@ -2298,28 +2298,26 @@ static int cx25840_init(struct v4l2_subdev *sd, u32 val)
+  struct cx25840_state *state = to_state(sd);
+
++ if (!is_cx2584x(state))
++ return -EOPNOTSUPP;
++
+  state->generic_mode = true;
+
+- if (is_cx2584x(state)) {
+- /* set datasheet video output defaults */
+- state->vid_config = CX25840_VCONFIG_FMT_BT656 |
+-    CX25840_VCONFIG_RES_8BIT |
+-    CX25840_VCONFIG_VBIRAW_DISABLED |
+-    CX25840_VCONFIG_ANCDATA_ENABLED |
+-    CX25840_VCONFIG_TASKBIT_ONE |
+-    CX25840_VCONFIG_ACTIVE_HORIZONTAL |
+-    CX25840_VCONFIG_VALID_NORMAL |
+-    CX25840_VCONFIG_HRESETW_NORMAL |
+-    CX25840_VCONFIG_CLKGATE_NONE |
+-    CX25840_VCONFIG_DCMODE_DWORDS |
+-    CX25840_VCONFIG_IDID0S_NORMAL |
+-    CX25840_VCONFIG_VIPCLAMP_DISABLED;
+-
+- /* add additional settings */
+- cx25840_vconfig_add(state, val);
+- } else {
+- /* TODO: generic mode needs to be developed for other chips */
+- WARN_ON(1);
+- }
++ /* set datasheet video output defaults */
++ state->vid_config = CX25840_VCONFIG_FMT_BT656 |
++    CX25840_VCONFIG_RES_8BIT |
++    CX25840_VCONFIG_VBIRAW_DISABLED |
++    CX25840_VCONFIG_ANCDATA_ENABLED |
++    CX25840_VCONFIG_TASKBIT_ONE |
++    CX25840_VCONFIG_ACTIVE_HORIZONTAL |
++    CX25840_VCONFIG_VALID_NORMAL |
++    CX25840_VCONFIG_HRESETW_NORMAL |
++    CX25840_VCONFIG_CLKGATE_NONE |
++    CX25840_VCONFIG_DCMODE_DWORDS |
++    CX25840_VCONFIG_IDID0S_NORMAL |
++    CX25840_VCONFIG_VIPCLAMP_DISABLED;
++
++ /* add additional settings */
++ cx25840_vconfig_add(state, val);
+
+  return 0;
+ }

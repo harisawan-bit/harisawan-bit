@@ -51,6 +51,28 @@ machine intelligence; systems discipline applied to clinical research.
 | `RGF` | **[rankforge-seo-agent](https://github.com/harisawan-bit/rankforge-seo-agent)** | Autonomous SEO / GEO / AEO workflow for coding agents | `PowerShell` | `v1.0.0 EXPERIMENTAL` |
 | `SH1` | **[sha1-cracker-ios](https://github.com/harisawan-bit/sha1-cracker-ios)** | GPU-accelerated SHA-1 suffix search for iOS: heterogeneous Metal + CPU ARM64 engines, checkpoint resume | `Swift` `Metal` | `v1.2.0 STABLE` |
 
+<!-- ===== 01b // UPSTREAM CONTRIBUTIONS ===== -->
+
+### `[ UPSTREAM :: MAINLINE LINUX ]`
+
+| FIELD | VALUE |
+|:---|:---|
+| `PATCH` | **media: cx25840: return -EOPNOTSUPP instead of WARN_ON in cx25840_init** |
+| `SUBSYSTEM` | `drivers/media/i2c/cx25840` (Linux Media kernel) |
+| `TRACKER` | [linux-media #158059](http://patchwork.linuxtv.org/project/linux-media/patch/CACaF87XKQbdLEHTCLFZh=TAt__dZzWf_d1vneKU9Lnx8kAHEiA@mail.gmail.com/) |
+| `STATE` | **ACCEPTED** (delegate: Hans Verkuil) — queued for the media tree, pending merge into mainline |
+| `FOUND VIA` | syzbot report [9123948aef13fe92d706](https://syzkaller.appspotmail.com/bug?extid=9123948aef13fe92d706) |
+| `FLOW` | `git send-email` -> `linux-media@vger.kernel.org` -> Patchwork review -> maintainer queue |
+
+```text
+$ git log --author="Muhammad Haris Awan" --pretty=format:"%h %s"
+
+[queued] media: cx25840: return -EOPNOTSUPP instead of WARN_ON
+        in cx25840_init
+        1 file changed, 13 insertions(+), 15 deletions(-)
+        Signed-off-by: Muhammad Haris Awan <m.harisawan@icloud.com>
+```
+
 ---
 
 <!-- ===== 02 // CAPABILITY MATRIX ===== -->
@@ -176,6 +198,10 @@ machine intelligence; systems discipline applied to clinical research.
 &nbsp;&nbsp;
 <a href="https://mehvar.store/">
   <img src="https://img.shields.io/badge/Mehvar-0A101F?style=for-the-badge&logo=web&logoColor=10B981&labelColor=0A101F" alt="Mehvar" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/harisawan-bit/harisawan-bit/tree/main/upstream-contributions">
+  <img src="https://img.shields.io/badge/Mainline%20Linux%20Patches-0A101F?style=for-the-badge&logo=linux&logoColor=F8FAFC&labelColor=0A101F" alt="Mainline Linux patches" />
 </a>
 
 </div>
