@@ -3,8 +3,22 @@
     "name": "poolr",
     "repo": "harisawan-bit/poolr",
     "logo": null,
-    "description": "No-code desktop SRMA suite — full PRISMA 2020 pipeline to publication-ready manuscript.",
+    "description": "No-code desktop SRMA suite: full PRISMA 2020 pipeline to publication-ready manuscript.",
     "tags": ["TypeScript", "C# / .NET 8", "Tauri"]
+  },
+  {
+    "name": "PocketOllama",
+    "repo": "harisawan-bit/PocketOllama",
+    "logo": null,
+    "description": "Local OpenAI/Ollama-compatible inference server for iOS: GGUF on the Apple GPU via llama.cpp, unsigned IPA builds in CI.",
+    "tags": ["Swift", "Metal", "llama.cpp"]
+  },
+  {
+    "name": "Sentinel Cyber Agent",
+    "repo": "harisawan-bit/sentinel-cyber-agent",
+    "logo": null,
+    "description": "Unified security orchestration agent: nuclei, subfinder, httpx, sherlock, prowler behind one plugin API.",
+    "tags": ["C", "Cybersecurity", "Recon"]
   },
   {
     "name": "Evidence Synth",
@@ -14,17 +28,10 @@
     "tags": ["Python", "Research", "Meta-Analysis"]
   },
   {
-    "name": "LocalLLM-iOS",
-    "repo": "harisawan-bit/LocalLLM-iOS",
-    "logo": null,
-    "description": "Sideloadable on-device LLM server — llama.cpp Metal, OpenAI-compatible API over Wi-Fi.",
-    "tags": ["Swift", "Metal", "llama.cpp"]
-  },
-  {
     "name": "Episteme",
     "repo": "harisawan-bit/episteme",
     "logo": null,
-    "description": "Reproducible, dependency-free SRMA engine — PubMed to SVG figures in one command.",
+    "description": "Reproducible, dependency-free SRMA engine: PubMed to SVG figures in one command.",
     "tags": ["Python", "Research", "SRMA"]
   },
   {

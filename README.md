@@ -12,7 +12,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
-  <img alt="Haris Awan — operations console" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
+  <img alt="Haris Awan: operations console" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
 </picture>
 
 <!-- ===== 00 // SYSTEM BRIEF ===== -->
@@ -28,8 +28,8 @@ MODE       = "PERSISTENT SESSION -- BUILDING IN PUBLIC"
 ```
 
 MBBS student and software developer. I build autonomous agents, benchmarking
-instrumentation for local LLMs, and end-to-end evidence-synthesis pipelines —
-PRISMA 2020-compliant systematic review tooling that runs from literature search
+instrumentation for local LLMs, and end-to-end evidence-synthesis pipelines:
+PRISMA 2020 compliant systematic review tooling that runs from literature search
 through meta-analysis to publication-ready figures. Clinical rigor applied to
 machine intelligence; systems discipline applied to clinical research.
 
@@ -41,15 +41,15 @@ machine intelligence; systems discipline applied to clinical research.
 
 | SYS | DESIGNATION | FUNCTION | STACK | STATE |
 |:---:|-------------|----------|-------|:-----:|
-| `PLR` | **[poolr](https://github.com/harisawan-bit/poolr)** | No-code desktop SRMA suite — full PRISMA 2020 pipeline to publication-ready manuscript | `TypeScript` `React` `C#/.NET 8` `Rust/Tauri` | `v0.5.6 ONLINE` |
-| `EVS` | **[evidence-synth](https://github.com/harisawan-bit/evidence-synth)** | Evidence synthesis framework — search, dedup, AI screening, D-L random-effects meta-analysis | `Python` | `ONLINE` |
-| `EPM` | **[episteme](https://github.com/harisawan-bit/episteme)** | Reproducible, dependency-free SRMA engine — PubMed to SVG figures in one command | `Python` | `ONLINE` |
-| `GRP` | **[srma-gap](https://github.com/harisawan-bit/srma-gap)** | Pre-flight evidence-gap checker for systematic-review topics (PubMed + PROSPERO) | `Python` | `ONLINE` |
-| `POI` | **[PocketOllama](https://github.com/harisawan-bit/PocketOllama)** | Local OpenAI & Ollama-compatible AI inference server for iOS with Metal acceleration, Bento UI, Hermes Agent support | `Swift` `Metal` | `v2.0.22 ONLINE` |
-| `SCA` | **[sentinel-cyber-agent](https://github.com/harisawan-bit/sentinel-cyber-agent)** | Unified MIT-licensed cyber security orchestration agent — wraps nuclei, subfinder, httpx, sherlock, prowler behind one plugin API | `Python` | `ONLINE` |
-| `OBC` | **[ollama-benchmark-cli](https://github.com/harisawan-bit/ollama-benchmark-cli)** | Instrumentation for rigorous local LLM performance benchmarking | `Python` | `STABLE` |
-| `RGF` | **[rankforge-seo-agent](https://github.com/harisawan-bit/rankforge-seo-agent)** | Autonomous SEO / GEO / AEO workflow for coding agents | `PowerShell` | `EXPERIMENTAL` |
-| `AQC` | **[achievement-quest](https://github.com/harisawan-bit/achievement-quest)** | Badge quest: Quickdraw + YOLO | `Python` | `ONLINE` |
+| `PLR` | **[poolr](https://github.com/harisawan-bit/poolr)** | No-code desktop SRMA suite: full PRISMA 2020 pipeline to publication-ready manuscript | `TypeScript` `React` `C#/.NET 8` `Rust/Tauri` | `v0.6.3 ONLINE` |
+| `EVS` | **[evidence-synth](https://github.com/harisawan-bit/evidence-synth)** | Evidence synthesis framework: search, dedup, AI screening, D-L random-effects meta-analysis | `Python` | `v0.2.0 ONLINE` |
+| `EPM` | **[episteme](https://github.com/harisawan-bit/episteme)** | Reproducible, dependency-free SRMA engine: PubMed to SVG figures in one command | `Python` | `v0.2.0 ONLINE` |
+| `GRP` | **[srma-gap](https://github.com/harisawan-bit/srma-gap)** | Pre-flight evidence-gap checker for systematic-review topics (PubMed + PROSPERO) | `Python` | `v1.0.0 ONLINE` |
+| `POI` | **[PocketOllama](https://github.com/harisawan-bit/PocketOllama)** | Local OpenAI & Ollama-compatible AI inference server for iOS: GGUF inference on the Apple GPU via llama.cpp, Metal acceleration, unsigned IPA builds in CI | `Swift` `Metal` | `0.5 ONLINE` |
+| `SCA` | **[sentinel-cyber-agent](https://github.com/harisawan-bit/sentinel-cyber-agent)** | Unified MIT-licensed cyber security orchestration agent: wraps nuclei, subfinder, httpx, sherlock, prowler behind one plugin API | `C` | `v2.5.0 ONLINE` |
+| `OBC` | **[ollama-benchmark-cli](https://github.com/harisawan-bit/ollama-benchmark-cli)** | Instrumentation for rigorous local LLM performance benchmarking | `Python` | `v1.0.0 STABLE` |
+| `RGF` | **[rankforge-seo-agent](https://github.com/harisawan-bit/rankforge-seo-agent)** | Autonomous SEO / GEO / AEO workflow for coding agents | `PowerShell` | `v1.0.0 EXPERIMENTAL` |
+| `SH1` | **[sha1-cracker-ios](https://github.com/harisawan-bit/sha1-cracker-ios)** | GPU-accelerated SHA-1 suffix search for iOS: heterogeneous Metal + CPU ARM64 engines, checkpoint resume | `Swift` `Metal` | `v1.2.0 STABLE` |
 
 ---
 
