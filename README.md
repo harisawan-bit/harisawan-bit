@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
+  <img alt="Haris Awan" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
+</picture>
+
 # Muhammad Haris Awan
 
 MBBS student and software developer based in Islamabad, Pakistan. I build autonomous agents, local LLM benchmarking tools, and end-to-end evidence-synthesis pipelines (PRISMA 2020 systematic review and meta-analysis tooling, from literature search to publication-ready figures).
