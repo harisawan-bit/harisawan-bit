@@ -13,9 +13,6 @@ MBBS student and software developer based in Islamabad, Pakistan. I build autono
 | **[srma-gap](https://github.com/harisawan-bit/srma-gap)** | Pre-flight evidence-gap checker for systematic-review topics (PubMed + PROSPERO) | Python | `v1.0.0` |
 | **[PocketOllama](https://github.com/harisawan-bit/PocketOllama)** | Local OpenAI & Ollama-compatible inference server for iOS using llama.cpp and Metal acceleration | Swift, Metal | `v0.5` |
 | **[sentinel-cyber-agent](https://github.com/harisawan-bit/sentinel-cyber-agent)** | Unified security orchestration agent wrapping nuclei, subfinder, httpx, sherlock, and prowler behind one plugin API | C | `v2.5.0` |
-| **[ollama-benchmark-cli](https://github.com/harisawan-bit/ollama-benchmark-cli)** | CLI instrumentation for local LLM performance benchmarking | Python | `v1.0.0` |
-| **[rankforge-seo-agent](https://github.com/harisawan-bit/rankforge-seo-agent)** | Automated SEO / GEO / AEO workflow for coding agents | PowerShell | `v1.0.0` |
-| **[sha1-cracker-ios](https://github.com/harisawan-bit/sha1-cracker-ios)** | GPU-accelerated SHA-1 suffix search for iOS with heterogeneous Metal + CPU ARM64 engines and checkpoint resume | Swift, Metal | `v1.2.0` |
 
 ## Open Source Contributions
 
