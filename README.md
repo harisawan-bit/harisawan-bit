@@ -1,89 +1,30 @@
-<!-- profile linkcheck: guards against broken-image regressions -->
-<div align="center">
-  <img src="https://github.com/harisawan-bit/harisawan-bit/actions/workflows/linkcheck.yml/badge.svg" alt="README linkcheck">
-</div>
+# Muhammad Haris Awan
 
-<!-- ============================================================ -->
-<!--  HARIS AWAN // PERSONAL OPERATIONS NETWORK                    -->
-<!--  THEME: QUANT TERMINAL / MILITARY INFRASTRUCTURE              -->
-<!--  RENDER MODE: THEME-AWARE (dark.svg / light.svg)              -->
-<!-- ============================================================ -->
+MBBS student and software developer based in Islamabad, Pakistan. I build autonomous agents, local LLM benchmarking tools, and end-to-end evidence-synthesis pipelines (PRISMA 2020 systematic review and meta-analysis tooling, from literature search to publication-ready figures).
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
-  <img alt="Haris Awan: operations console" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/light.svg">
-</picture>
+## Projects
 
-<!-- ===== 00 // SYSTEM BRIEF ===== -->
+| Project | Description | Stack | Version |
+| :--- | :--- | :--- | :--- |
+| **[poolr](https://github.com/harisawan-bit/poolr)** | No-code desktop SRMA suite: full PRISMA 2020 pipeline to publication-ready manuscript | TypeScript, React, C#/.NET 8, Rust/Tauri | `v0.6.3` |
+| **[evidence-synth](https://github.com/harisawan-bit/evidence-synth)** | Evidence synthesis framework: search, deduplication, AI screening, and DerSimonian-Laird random-effects meta-analysis | Python | `v0.2.0` |
+| **[episteme](https://github.com/harisawan-bit/episteme)** | Reproducible, dependency-free SRMA engine: PubMed to SVG figures in one command | Python | `v0.2.0` |
+| **[srma-gap](https://github.com/harisawan-bit/srma-gap)** | Pre-flight evidence-gap checker for systematic-review topics (PubMed + PROSPERO) | Python | `v1.0.0` |
+| **[PocketOllama](https://github.com/harisawan-bit/PocketOllama)** | Local OpenAI & Ollama-compatible inference server for iOS using llama.cpp and Metal acceleration | Swift, Metal | `v0.5` |
+| **[sentinel-cyber-agent](https://github.com/harisawan-bit/sentinel-cyber-agent)** | Unified security orchestration agent wrapping nuclei, subfinder, httpx, sherlock, and prowler behind one plugin API | C | `v2.5.0` |
+| **[ollama-benchmark-cli](https://github.com/harisawan-bit/ollama-benchmark-cli)** | CLI instrumentation for local LLM performance benchmarking | Python | `v1.0.0` |
+| **[rankforge-seo-agent](https://github.com/harisawan-bit/rankforge-seo-agent)** | Automated SEO / GEO / AEO workflow for coding agents | PowerShell | `v1.0.0` |
+| **[sha1-cracker-ios](https://github.com/harisawan-bit/sha1-cracker-ios)** | GPU-accelerated SHA-1 suffix search for iOS with heterogeneous Metal + CPU ARM64 engines and checkpoint resume | Swift, Metal | `v1.2.0` |
 
-```text
-$ cat /etc/harisawan/operator.conf
+## Upstream Contributions
 
-OPERATOR   = "Muhammad Haris Awan"
-GRID       = "33.6844N 073.0479E :: ISLAMABAD, PK"
-DOCTRINE   = "MEDICAL TRAINING x SYSTEMS ENGINEERING"
-DIRECTIVE  = "AUTONOMOUS AGENTS / RESEARCH TOOLING / EVIDENCE SYNTHESIS"
-MODE       = "PERSISTENT SESSION -- BUILDING IN PUBLIC"
-```
+- **Linux Kernel (`drivers/media/i2c/cx25840`)**: `media: cx25840: return -EOPNOTSUPP instead of WARN_ON in cx25840_init` — [linux-media #158059](http://patchwork.linuxtv.org/project/linux-media/patch/CACaF87XKQbdLEHTCLFZh=TAt__dZzWf_d1vneKU9Lnx8kAHEiA@mail.gmail.com/) (Accepted, queued for mainline; found via [syzbot](https://syzkaller.appspotmail.com/bug?extid=9123948aef13fe92d706)). More details in [upstream-contributions](https://github.com/harisawan-bit/harisawan-bit/tree/main/upstream-contributions).
 
-MBBS student and software developer. I build autonomous agents, benchmarking
-instrumentation for local LLMs, and end-to-end evidence-synthesis pipelines:
-PRISMA 2020 compliant systematic review tooling that runs from literature search
-through meta-analysis to publication-ready figures. Clinical rigor applied to
-machine intelligence; systems discipline applied to clinical research.
-
----
-
-<!-- ===== 01 // ACTIVE SYSTEMS REGISTRY ===== -->
-
-### `[ ACTIVE SYSTEMS ]`
-
-| SYS | DESIGNATION | FUNCTION | STACK | STATE |
-|:---:|-------------|----------|-------|:-----:|
-| `PLR` | **[poolr](https://github.com/harisawan-bit/poolr)** | No-code desktop SRMA suite: full PRISMA 2020 pipeline to publication-ready manuscript | `TypeScript` `React` `C#/.NET 8` `Rust/Tauri` | `v0.6.3 ONLINE` |
-| `EVS` | **[evidence-synth](https://github.com/harisawan-bit/evidence-synth)** | Evidence synthesis framework: search, dedup, AI screening, D-L random-effects meta-analysis | `Python` | `v0.2.0 ONLINE` |
-| `EPM` | **[episteme](https://github.com/harisawan-bit/episteme)** | Reproducible, dependency-free SRMA engine: PubMed to SVG figures in one command | `Python` | `v0.2.0 ONLINE` |
-| `GRP` | **[srma-gap](https://github.com/harisawan-bit/srma-gap)** | Pre-flight evidence-gap checker for systematic-review topics (PubMed + PROSPERO) | `Python` | `v1.0.0 ONLINE` |
-| `POI` | **[PocketOllama](https://github.com/harisawan-bit/PocketOllama)** | Local OpenAI & Ollama-compatible AI inference server for iOS: GGUF inference on the Apple GPU via llama.cpp, Metal acceleration, unsigned IPA builds in CI | `Swift` `Metal` | `0.5 ONLINE` |
-| `SCA` | **[sentinel-cyber-agent](https://github.com/harisawan-bit/sentinel-cyber-agent)** | Unified MIT-licensed cyber security orchestration agent: wraps nuclei, subfinder, httpx, sherlock, prowler behind one plugin API | `C` | `v2.5.0 ONLINE` |
-| `OBC` | **[ollama-benchmark-cli](https://github.com/harisawan-bit/ollama-benchmark-cli)** | Instrumentation for rigorous local LLM performance benchmarking | `Python` | `v1.0.0 STABLE` |
-| `RGF` | **[rankforge-seo-agent](https://github.com/harisawan-bit/rankforge-seo-agent)** | Autonomous SEO / GEO / AEO workflow for coding agents | `PowerShell` | `v1.0.0 EXPERIMENTAL` |
-| `SH1` | **[sha1-cracker-ios](https://github.com/harisawan-bit/sha1-cracker-ios)** | GPU-accelerated SHA-1 suffix search for iOS: heterogeneous Metal + CPU ARM64 engines, checkpoint resume | `Swift` `Metal` | `v1.2.0 STABLE` |
-
-<!-- ===== 01b // UPSTREAM CONTRIBUTIONS ===== -->
-
-### `[ UPSTREAM :: MAINLINE LINUX ]`
-
-| FIELD | VALUE |
-|:---|:---|
-| `PATCH` | **media: cx25840: return -EOPNOTSUPP instead of WARN_ON in cx25840_init** |
-| `SUBSYSTEM` | `drivers/media/i2c/cx25840` (Linux Media kernel) |
-| `TRACKER` | [linux-media #158059](http://patchwork.linuxtv.org/project/linux-media/patch/CACaF87XKQbdLEHTCLFZh=TAt__dZzWf_d1vneKU9Lnx8kAHEiA@mail.gmail.com/) |
-| `STATE` | **ACCEPTED** (delegate: Hans Verkuil) — queued for the media tree, pending merge into mainline |
-| `FOUND VIA` | syzbot report [9123948aef13fe92d706](https://syzkaller.appspotmail.com/bug?extid=9123948aef13fe92d706) |
-| `FLOW` | `git send-email` -> `linux-media@vger.kernel.org` -> Patchwork review -> maintainer queue |
-
-```text
-$ git log --author="Muhammad Haris Awan" --pretty=format:"%h %s"
-
-[queued] media: cx25840: return -EOPNOTSUPP instead of WARN_ON
-        in cx25840_init
-        1 file changed, 13 insertions(+), 15 deletions(-)
-        Signed-off-by: Muhammad Haris Awan <m.harisawan@icloud.com>
-```
-
----
-
-<!-- ===== 02 // CAPABILITY MATRIX ===== -->
-
-### `[ CAPABILITY MATRIX ]`
+## Tech Stack
 
 <div align="center">
 
-**LANGUAGES**
-
-<br/>
+**Languages**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-languages-dark.svg">
@@ -93,9 +34,7 @@ $ git log --author="Muhammad Haris Awan" --pretty=format:"%h %s"
 
 <br/><br/>
 
-**FRAMEWORKS & LIBRARIES**
-
-<br/>
+**Frameworks & Libraries**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-frameworks-dark.svg">
@@ -105,9 +44,7 @@ $ git log --author="Muhammad Haris Awan" --pretty=format:"%h %s"
 
 <br/><br/>
 
-**INFRASTRUCTURE & TOOLS**
-
-<br/>
+**Infrastructure & Tools**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-infra-dark.svg">
@@ -115,30 +52,17 @@ $ git log --author="Muhammad Haris Awan" --pretty=format:"%h %s"
   <img src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/main/assets/tech-infra-dark.svg" alt="Infrastructure and tools">
 </picture>
 
-<br/><br/>
-
-**ACTIVE LEARNING TRACKS**
-
-<br/>
-
-<img src="https://img.shields.io/badge/Agentic%20RAG-0A101F?style=for-the-badge&logoColor=22D3EE&labelColor=0A101F" alt="Agentic RAG">
-<img src="https://img.shields.io/badge/Distributed%20Systems-0A101F?style=for-the-badge&logoColor=A78BFA&labelColor=0A101F" alt="Distributed Systems">
-<img src="https://img.shields.io/badge/CUDA-0A101F?style=for-the-badge&logoColor=10B981&labelColor=0A101F" alt="CUDA">
-<img src="https://img.shields.io/badge/Clinical%20NLP-0A101F?style=for-the-badge&logoColor=22D3EE&labelColor=0A101F" alt="Clinical NLP">
-
 </div>
 
----
+Currently exploring: Agentic RAG, Distributed Systems, CUDA, and Clinical NLP.
 
-<!-- ===== 03 // TELEMETRY ===== -->
-
-### `[ TELEMETRY ]`
+## GitHub Activity
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=harisawan-bit&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
-  <img width="100%" src="https://streak-stats.demolab.com/?user=harisawan-bit&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Contribution streak telemetry" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=harisawan-bit&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Contribution streak" />
 </picture>
 
 <br/>
@@ -152,62 +76,20 @@ $ git log --author="Muhammad Haris Awan" --pretty=format:"%h %s"
   <img width="49%" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/toplangs-light.svg" alt="Language distribution" />
 </picture>
 
-</div>
-
-<!-- ===== 04 // ACTIVITY TRACE ===== -->
-
-<div align="center">
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/snake-light.svg" />
-  <img alt="Contribution activity trace" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/snake-light.svg" />
+  <img alt="Contribution activity" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/output/snake-light.svg" />
 </picture>
 
 </div>
 
-<!-- ===== 05 // DEPLOYED ASSETS ===== -->
+## Links
 
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/harisawan-bit/harisawan-bit/projects/projects.svg" alt="Deployed assets panel" />
-
-</div>
-
-<!-- ===== 06 // UPLINKS ===== -->
-
-### `[ UPLINKS ]`
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/muhammad-haris-awan-b8884b190/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=0A101F" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="https://instagram.com/harisawan._">
-  <img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA&labelColor=0A101F" alt="Instagram" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:an25mbbs026.student@fui.edu.pk">
-  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
-</a>
-&nbsp;&nbsp;
-<a href="https://orcid.org/0009-0009-0192-337X">
-  <img src="https://img.shields.io/badge/ORCID-0A101F?style=for-the-badge&logo=orcid&logoColor=22D3EE&labelColor=0A101F" alt="ORCID" />
-</a>
-&nbsp;&nbsp;
-<a href="https://mehvar.store/">
-  <img src="https://img.shields.io/badge/Mehvar-0A101F?style=for-the-badge&logo=web&logoColor=10B981&labelColor=0A101F" alt="Mehvar" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/harisawan-bit/harisawan-bit/tree/main/upstream-contributions">
-  <img src="https://img.shields.io/badge/Mainline%20Linux%20Patches-0A101F?style=for-the-badge&logo=linux&logoColor=F8FAFC&labelColor=0A101F" alt="Mainline Linux patches" />
-</a>
-
-</div>
-
-<!-- ==================== END OF TRANSMISSION ==================== -->
-
-<!-- heartbeat -->
-
-<!-- pair-extraordinaire: co-authored commit -->
+- [LinkedIn](https://www.linkedin.com/in/muhammad-haris-awan-b8884b190/)
+- [ORCID](https://orcid.org/0009-0009-0192-337X)
+- [Email](mailto:an25mbbs026.student@fui.edu.pk)
+- [Mehvar](https://mehvar.store/)
+- [Instagram](https://instagram.com/harisawan._)
