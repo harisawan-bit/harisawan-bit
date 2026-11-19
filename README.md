@@ -8,23 +8,34 @@
 
 MBBS student and software developer based in Islamabad, Pakistan. I build autonomous agents, local LLM benchmarking tools, and end-to-end evidence-synthesis pipelines (PRISMA 2020 systematic review and meta-analysis tooling, from literature search to publication-ready figures).
 
-## Projects
+<div align="center">
+
+![Contribution City](./contribution-city.svg)
+
+</div>
+
+## Featured Projects & Upstream Work
+
+| Project | Focus | Stack / Scope | Status |
+| :--- | :--- | :--- | :--- |
+| **[poolr](https://github.com/harisawan-bit/poolr)** | No-code desktop SRMA suite — full PRISMA 2020 pipeline to publication-ready manuscript | `TypeScript` `React` `C#/.NET 8` `Rust/Tauri` | `v0.6.6` |
+| **[loaf-fm](https://github.com/m-uvex/loaf-fm/pull/121)** | Fast Rust-based Material 3e file manager for Linux — keybindings & archive extraction | `Rust` | Open PR `#121` |
+| **[llvm-project](https://github.com/llvm/llvm-project/pull/236527)** | Compiler & toolchain infrastructure — `LowerSwitch` branch weights fix | `C++` `LLVM` | Open PR `#236527` |
+| **[Linux Kernel (`cx25840`)](https://github.com/harisawan-bit/harisawan-bit/tree/main/upstream-contributions)** | `drivers/media/i2c/cx25840`: return `-EOPNOTSUPP` instead of `WARN_ON` (found via `syzbot`) | `C` `Linux` | Accepted ([mainline](http://patchwork.linuxtv.org/project/linux-media/patch/CACaF87XKQbdLEHTCLFZh=TAt__dZzWf_d1vneKU9Lnx8kAHEiA@mail.gmail.com/)) |
+| **[CPython](https://github.com/python/cpython/pull/160777)** | `gzip` partial recovery (`#160777`), IDLE smart-dedent (`#160776`), `email.utils.parseaddr` (`#160775`) | `Python` `C` | Open PRs |
+| **[NumPy](https://github.com/numpy/numpy/pull/33152)** & **[Pandas](https://github.com/pandas-dev/pandas/pull/71302)** | `ma.testutils` scalar NaNs (`#33152`) · `Block.replace_list` perf (`#71302`) | `Python` | Open PRs |
+| **[squidbrake](https://github.com/batrapulkit/squidbrake/pull/92)** & **[repowise](https://github.com/repowise-dev/repowise/pull/3576)** | Follow `make` includes & `ifeq` branches (`#92`) · URL handling on new conversation (`#3576`) | `Upstream` | Merged |
+| **[sentinel-cyber-agent](https://github.com/harisawan-bit/sentinel-cyber-agent)** | Unified security orchestration agent wrapping `nuclei`, `subfinder`, `httpx`, `sherlock`, and `prowler` behind one plugin API | `C` | `v2.5.0` |
+
+### More Projects
 
 | Project | Description | Stack | Version |
 | :--- | :--- | :--- | :--- |
-| **[poolr](https://github.com/harisawan-bit/poolr)** | No-code desktop SRMA suite: full PRISMA 2020 pipeline to publication-ready manuscript | TypeScript, React, C#/.NET 8, Rust/Tauri | `v0.6.6` |
-| **[lecture-notes-compiler](https://github.com/harisawan-bit/lecture-notes-compiler)** | High-density lecture notes compiler and agentic skill across US Legal, Letter, and A4 formats with spatial QA | Python | - |
-| **[evidence-synth](https://github.com/harisawan-bit/evidence-synth)** | Evidence synthesis framework: search, deduplication, AI screening, and DerSimonian-Laird random-effects meta-analysis | Python | `v0.2.0` |
-| **[episteme](https://github.com/harisawan-bit/episteme)** | Reproducible, dependency-free SRMA engine: PubMed to SVG figures in one command | Python | `v0.2.0` |
-| **[srma-gap](https://github.com/harisawan-bit/srma-gap)** | Pre-flight evidence-gap checker for systematic-review topics (PubMed + PROSPERO) | Python | `v1.0.0` |
-| **[PocketOllama](https://github.com/harisawan-bit/PocketOllama)** | Local OpenAI & Ollama-compatible inference server for iOS using llama.cpp and Metal acceleration | Swift, Metal | `v0.5` |
-| **[sentinel-cyber-agent](https://github.com/harisawan-bit/sentinel-cyber-agent)** | Unified security orchestration agent wrapping nuclei, subfinder, httpx, sherlock, and prowler behind one plugin API | C | `v2.5.0` |
-
-## Open Source Contributions
-
-- **Linux Kernel (`drivers/media/i2c/cx25840`)**: `media: cx25840: return -EOPNOTSUPP instead of WARN_ON in cx25840_init` — [linux-media #158059](http://patchwork.linuxtv.org/project/linux-media/patch/CACaF87XKQbdLEHTCLFZh=TAt__dZzWf_d1vneKU9Lnx8kAHEiA@mail.gmail.com/) (Accepted, queued for mainline; found via [syzbot](https://syzkaller.appspotmail.com/bug?extid=9123948aef13fe92d706)). More details in [upstream-contributions](https://github.com/harisawan-bit/harisawan-bit/tree/main/upstream-contributions).
-- **Merged PRs**: [batrapulkit/squidbrake#92](https://github.com/batrapulkit/squidbrake/pull/92) (follow `make` includes and `ifeq` branches), [repowise-dev/repowise#3576](https://github.com/repowise-dev/repowise/pull/3576) (URL handling on new conversation).
-- **Open PRs**: [llvm/llvm-project#236527](https://github.com/llvm/llvm-project/pull/236527) (`LowerSwitch` branch weights), [python/cpython#160777](https://github.com/python/cpython/pull/160777) (`gzip` partial recovery), [python/cpython#160776](https://github.com/python/cpython/pull/160776) (IDLE smart-dedent), [python/cpython#160775](https://github.com/python/cpython/pull/160775) (`email.utils.parseaddr`), [numpy/numpy#33152](https://github.com/numpy/numpy/pull/33152) (`ma.testutils` scalar NaNs), [pandas-dev/pandas#71302](https://github.com/pandas-dev/pandas/pull/71302) (`Block.replace_list` perf), [m-uvex/loaf-fm#121](https://github.com/m-uvex/loaf-fm/pull/121) (keybindings & archive extract).
+| **[lecture-notes-compiler](https://github.com/harisawan-bit/lecture-notes-compiler)** | High-density lecture notes compiler and agentic skill across US Legal, Letter, and A4 formats with spatial QA | `Python` | - |
+| **[evidence-synth](https://github.com/harisawan-bit/evidence-synth)** | Evidence synthesis framework: search, deduplication, AI screening, and DerSimonian-Laird random-effects meta-analysis | `Python` | `v0.2.0` |
+| **[episteme](https://github.com/harisawan-bit/episteme)** | Reproducible, dependency-free SRMA engine: PubMed to SVG figures in one command | `Python` | `v0.2.0` |
+| **[srma-gap](https://github.com/harisawan-bit/srma-gap)** | Pre-flight evidence-gap checker for systematic-review topics (PubMed + PROSPERO) | `Python` | `v1.0.0` |
+| **[PocketOllama](https://github.com/harisawan-bit/PocketOllama)** | Local OpenAI & Ollama-compatible inference server for iOS using `llama.cpp` and Metal acceleration | `Swift` `Metal` | `v0.5` |
 
 ## Tech Stack
 
