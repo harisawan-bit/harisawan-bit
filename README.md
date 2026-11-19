@@ -19,8 +19,8 @@ MBBS student and software developer based in Islamabad, Pakistan. I build autono
 | Project | Focus | Stack / Scope | Status |
 | :--- | :--- | :--- | :--- |
 | **[poolr](https://github.com/harisawan-bit/poolr)** | No-code desktop SRMA suite — full PRISMA 2020 pipeline to publication-ready manuscript | `TypeScript` `React` `C#/.NET 8` `Rust/Tauri` | `v0.6.6` |
-| **[loaf-fm](https://github.com/m-uvex/loaf-fm/pull/121)** | Fast Rust-based Material 3e file manager for Linux — keybindings & archive extraction | `Rust` | Open PR `#121` |
-| **[llvm-project](https://github.com/llvm/llvm-project/pull/236527)** | Compiler & toolchain infrastructure — `LowerSwitch` branch weights fix | `C++` `LLVM` | Open PR `#236527` |
+| **[loaf-fm](https://github.com/m-uvex/loaf-fm/pull/121)** | Fast Rust-based Material 3e file manager for Linux — keybindings, archive extraction, transfer speed/ETA, checksums & RAM optimizations | `Rust` | Merged (`#121`, `#124`, `#126`) |
+| **[llvm-project](https://github.com/llvm/llvm-project/pull/221085)** | Compiler & toolchain infrastructure — `[libc]` emulated `float128` `totalorder` (`#221085`) & `LowerSwitch` branch weights (`#236527`) | `C++` `LLVM` | Merged (`#221085`) · Open (`#236527`) |
 | **[Linux Kernel (`cx25840`)](https://github.com/harisawan-bit/harisawan-bit/tree/main/upstream-contributions)** | `drivers/media/i2c/cx25840`: return `-EOPNOTSUPP` instead of `WARN_ON` (found via `syzbot`) | `C` `Linux` | Accepted ([mainline](http://patchwork.linuxtv.org/project/linux-media/patch/CACaF87XKQbdLEHTCLFZh=TAt__dZzWf_d1vneKU9Lnx8kAHEiA@mail.gmail.com/)) |
 | **[CPython](https://github.com/python/cpython/pull/160777)** | `gzip` partial recovery (`#160777`), IDLE smart-dedent (`#160776`), `email.utils.parseaddr` (`#160775`) | `Python` `C` | Open PRs |
 | **[NumPy](https://github.com/numpy/numpy/pull/33152)** & **[Pandas](https://github.com/pandas-dev/pandas/pull/71302)** | `ma.testutils` scalar NaNs (`#33152`) · `Block.replace_list` perf (`#71302`) | `Python` | Open PRs |
